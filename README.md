@@ -2,7 +2,9 @@
 An open-source AI companion that goes beyond chatbots — combining emotional awareness, real-time voice interaction, proactive notifications, and hybrid AI (local + cloud) into a single experience.
 
 <p align="center">
-  <img src="https://github.com/WeAreTheArtMakers/AI-Companion-RUYA/blob/main/RUYA.mp4" alt="Rüya AI Logo" width="256" />
+  <a href="https://github.com/WeAreTheArtMakers/AI-Companion-RUYA/blob/main/RUYA.mp4">
+    <img src="https://img.youtube.com/vi/<video-id>/0.jpg" alt="Rüya AI Video Preview" width="256" />
+  </a>
 </p>
 
 
