@@ -204,7 +204,7 @@ An open-source AI companion that goes beyond chatbots — combining emotional aw
 - Kişisel gelişim: Kullanıcıya katkı sağlama  
 - İlişki derinliği: “Hayat–Yaşam bağı”na yaklaşan ilişki
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/WeAreTheArtMakers/AI-Companion-RUYA/blob/main/ruya.gif" alt="Rüya AI Demo" width="480" />
 </p>
 
