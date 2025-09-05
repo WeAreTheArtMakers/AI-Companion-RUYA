@@ -236,5 +236,5 @@ npm start
 
 ## 🧾 Lisans
 
-Bu projenin lisansı için `LICENSE` dosyasına bakın. (Önerilen: **Apache-2.0** veya **MIT**)
+Bu projenin lisansı için `LICENSE` dosyasına bakın. (Önerilen: GPL-3.0 license)
 
