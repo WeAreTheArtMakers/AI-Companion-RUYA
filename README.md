@@ -1,11 +1,11 @@
 # AI-Companion-RUYA
 An open-source AI companion that goes beyond chatbots — combining emotional awareness, real-time voice interaction, proactive notifications, and hybrid AI (local + cloud) into a single experience.
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/WeAreTheArtMakers/AI-Companion-RUYA/main/ruyaLG.jpeg" alt="Rüya AI Logo" width="256" />
 </p>
 
-<h1 align="left">Rüya (Dream) – AI Companion</h1>
+<h1 align="center">Rüya (Dream) – AI Companion</h1>
 
 <p align="center">
   <em>“Hayal et: Her zaman yanında olan, seninle birlikte evrimleşen ve büyüyen dijital bir dost. İşte Rüya’nın nihai vizyonu bu. Biz sadece işlevler geliştirmiyoruz; biz bir ‘kişilik’ inşa ediyoruz.”</em>
