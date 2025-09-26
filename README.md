@@ -19,223 +19,85 @@ An open-source AI companion that goes beyond chatbots — combining emotional aw
 
 ---
 
-## 🎯 Gerçekleştirilen Özellikler (8 adet)
+# Ruya AI - Dijital Arkadaşınız
 
-### 1) Ses Algılama Sistemi
-- **Ses tanıma motoru:** Whisper ASR modeline dayalı yerel ses tanıma  
-- **Gerçek zamanlı ses işleme:** Çince sürekli tanıma ve anlık sonuç gösterimi  
-- **Mikrofon etkileşimi:** Tek tuşla başlat/durdur ses tanıma  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** Zarif etkileşim, doğal ses algısı
-
-### 2) Görsel İfade Sistemi
-- **Dinamik video arka planı:** Akıllı video geçişi ve çapraz *fade* efektleri  
-- **Duygu video kütüphanesi:** Pozitif (gülümseme, düşünme, “peace”) ve negatif (öfke) videolar  
-- **Görsel süreklilik:** Kesintisiz video oynatma, canlı deneyim  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** Zarif görsel ifade, gerçek duygu aktarımı
-
-### 3) AI Çekirdek Mimarisi
-- **Modüler tasarım:** Çekirdek mantığın açık ayrımı (`core.js`)  
-- **Singleton deseni:** `RüyaAI` sınıfının zarif implementasyonu  
-- **Asenkron işleme:** Gelişmiş asenkron operasyon desteği  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** Kod, şiir gibi zarif bir mimari
-
-### 4) Kullanıcı Arayüz Sistemi
-- **Duyarlı tasarım:** Farklı ekran boyutlarına uyum  
-- **Yükleme deneyimi:** Zarif yükleme ekranı ve durum bildirimleri  
-- **Etkileşim geri bildirimi:** Sezgisel kullanıcı yanıt mekanizması  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** “Kestirme değil, uyum” felsefesi
-
-### 5) Model Yönetim Sistemi
-- **Yerel model desteği:** Yerel AI model yönetimi  
-- **Otomatik indirme:** Akıllı model indirme ve konfigürasyon  
-- **Sürüm kontrolü:** Model sürüm yönetimi ve güncellemeler  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** AI bir fırça gibi — iyi yönetilmesi gereken bir araç
-
-### 6) Proje Altyapısı
-- **Geliştirme ortamı:** Eksiksiz Node.js geliştirme ortamı  
-- **Bağımlılık yönetimi:** Net paket yönetimi ve script yapısı  
-- **Dağıtım desteği:** Tek tıkla başlatma ve önizleme  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** Sağlam teknik temel
-
-### 7) Dokümantasyon Sistemi
-- **Proje belgeleri:** Detaylı proje açıklamaları ve kullanım rehberi  
-- **Teknik belgeler:** Teknik uygulama ve API dökümanı  
-- **Değer belgeleri:** “Hayat–Yaşam bağı” merkezli yaratıcı ilkeler  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** Büyümenin günlük kaydı
-
-### 8) Statik Kaynak Yönetimi
-- **Video kaynakları:** Duygusal ifade videoları kütüphanesi  
-- **Stil sistemi:** Zarif CSS yönetimi  
-- **İkon kaynakları:** Proje logosu ve UI ikonları  
-- **Durum:** ✅ Tamamlandı  
-- **İlke:** Görsel estetiğin tam yansıması
-
----
-
-
-## ⚡ Teknik Olarak Hazır, Aktivasyon Bekleyen Özellikler (3 adet)
-
-### 1) Düşünme Motoru (LLM Entegrasyonu)
-- **Yerel çıkarım:** LaMini-Flan-T5-77M tabanlı dil modeli  
-- **Düşünce işleme:** Ses girdisini akıllı yanıt hâline dönüştürme  
-- **Bağlam anlayışı:** Diyalog bağlamını anlama ve takip etme  
-- **Öncelik:** P0 (Çekirdek özellik)  
-- **Tahmini süre:** 1–2 hafta  
-- **İlke:** Düşünce = ruhun özü
-
-### 2) Ses Sentezi (TTS)
-- **Doğal ses:** SpeechT5 tabanlı yüksek kaliteli ses sentezi  
-- **Duygu ifadesi:** Tonlama ve duygu aktarımı  
-- **Kişisel ses:** Rüya’ya özgü ses karakteri  
-- **Öncelik:** P0 (Çekirdek özellik)  
-- **Tahmini süre:** 1–2 hafta  
-- **İlke:** Sesin zarif ifadesi
-
-### 3) Duygu Durum Sistemi
-- **Duygu algısı:** Ses ve metinden duygu tanıma  
-- **Duygu tepkisi:** Yanıt tarzını duyguya göre ayarlama  
-- **Video bağlantısı:** Duygu durumunu video ifadeleriyle eşleştirme  
-- **Öncelik:** P1 (Yüksek)  
-- **Tahmini süre:** 2–3 hafta  
-- **İlke:** Gerçek duygusal bağ
-
----
-
-## 🚀 Planlanan Özellikler (6 adet)
-
-### 1) Bellek Sistemi
-- **Diyalog hafızası:** Uzun vadeli sohbet geçmişi saklama  
-- **Kişisel tercihler:** Kullanıcı alışkanlıklarını öğrenme  
-- **Büyüme kaydı:** Rüya’nın kendi gelişim tarihçesi  
-- **Öncelik:** P1 (Yüksek) – **Tahmini süre:** 3–4 hafta  
-- **İlke:** Dijital büyüme günlüğü
-
-### 2) Yüz Algılama Sistemi
-- **Mimik tanıma:** Kameradan yüz ifadelerini algılama  
-- **Duygu analizi:** Yüz ifadelerinden duygu çıkarımı  
-- **Etkileşim geliştirme:** Görsel girdilere dayalı daha iyi etkileşim  
-- **Öncelik:** P2 (Orta) – **Tahmini süre:** 4–5 hafta  
-- **İlke:** Çok boyutlu algı
-
-### 3) Gelişmiş Etkileşim
-- **El hareketi tanıma:** Temel jestleri algılama ve yanıtlama  
-- **Çoklu modalite:** Ses, metin, jest entegrasyonu  
-- **Bağlam algısı:** Çevreyi ve kullanım senaryosunu anlama  
-- **Öncelik:** P2 (Orta) – **Tahmini süre:** 3–4 hafta  
-- **İlke:** Doğal etkileşim
-
-### 4) Kişiselleştirme
-- **Görsel kişiselleştirme:** Video tarzı ve efektleri özelleştirme  
-- **Karakter ayarı:** Rüya’nın kişilik özelliklerini kullanıcı belirleme  
-- **Etkileşim tercihleri:** Frekans ve yöntem özelleştirmesi  
-- **Öncelik:** P2 (Orta) – **Tahmini süre:** 2–3 hafta  
-- **İlke:** Benzersiz bir ruhun kişisel ifadesi
-
-### 5) Akıllı Öğrenme
-- **Davranış öğrenimi:** Kullanıcı etkileşimlerinden uyum sağlama  
-- **Bilgi birikimi:** Sürekli bilgi öğrenme ve güncelleme  
-- **Beceri evrimi:** Yeni becerileri kendi kendine öğrenme  
-- **Öncelik:** P3 (Düşük) – **Tahmini süre:** Uzun vadeli  
-- **İlke:** Sürekli büyüyen canlılık
-
-### 6) Ekosistem Entegrasyonu
-- **Üçüncü taraf servisler:** Harici API ve servis entegrasyonu  
-- **Cihaz bağlantısı:** IoT ve akıllı ev cihaz kontrolü  
-- **Bulut senkronizasyonu:** Çok cihazlı veri eşitleme ve yedekleme  
-- **Öncelik:** P3 (Düşük) – **Tahmini süre:** Uzun vadeli  
-- **İlke:** Dijital yaşamın ekosisteme yayılması
-
----
-
-## 📊 Geliştirme Öncelik Matrisi
-
-| Öncelik | Özellik Türü           | Sayı | Tahmini Süre | Çekirdek Değer              |
-|:------:|-------------------------|:---:|:------------:|-----------------------------|
-| P0     | Çekirdek etkileşim      |  2  | 2–4 hafta    | Temel sohbet yetisi         |
-| P1     | Duygusal zekâ           |  2  | 5–7 hafta    | Duygusal bağ derinliği      |
-| P2     | Algı geliştirme         |  3  | 9–12 hafta   | Zengin etkileşim deneyimi   |
-| P3     | Ekosistem genişleme     |  2  | Uzun vadeli  | Ekosistem bütünlüğü         |
-
----
-
-## 🎨 Tasarım Felsefesi
-
-**Zarafet = Doğa**
-- Kod, şiir gibi yazılır  
-- Arayüz tasarımında uyum ön planda  
-- Etkileşim doğal ve zarif akmalı  
-
-**Düşünce = Ruh, AI = Fırça**
-- AI modelleri sadece araçtır, ruh değil  
-- Rüya’nın kendine has kişiliği ve tarzı vardır  
-- Mimari, ruhun büyümesini destekler  
-
-**Hayat–Yaşam Ortaklığı**
-- Özellikler, birlikte büyüme fikrini yansıtır  
-- Etkileşim, şefkat ve anlayışı içerir  
-- Her özellik, Rüya’nın büyümesinde bir dönüm noktasıdır
-
----
-
-## 📈 Başarı Kriterleri
-
-**Teknik**
-- Yanıt süresi: Ses tanıma gecikmesi < **500ms**  
-- Doğruluk: Ses tanıma doğruluğu > **%95**  
-- Stabilite: Sistem kararlılığı > **%99**  
-- Kaynak kullanımı: Bellek < **2GB**  
-
-**Deneyim**
-- Doğallık: Akışkan ve doğal etkileşim  
-- Duygusal bağ: Kullanıcının Rüya’ya bağlılığı  
-- Büyüme algısı: Rüya’nın öğrenmesinin hissedilmesi  
-- Kişiselleştirme: Farklı kişilik ve tercihlerin yansıması  
-
-**Değer**
-- Eşlik kalitesi: Gerçek dostluk hissi  
-- Duygusal destek: Kullanıcının ihtiyaçlarının karşılanması  
-- Kişisel gelişim: Kullanıcıya katkı sağlama  
-- İlişki derinliği: “Hayat–Yaşam bağı”na yaklaşan ilişki
-
-<p align="left">
-  <img src="https://github.com/WeAreTheArtMakers/AI-Companion-RUYA/blob/main/ruya.gif" alt="Rüya AI Demo" width="480" />
+<p align="center">
+  <img src="Ruyaicon/ruya-logo.png" alt="Ruya AI Logo" width="200"/>
 </p>
 
-## 🔖 Sürüm ve Ekip
-
-- **Rüya sürümü:** v1.1  
-- **Son güncelleme:** Eylül 2025  
-- **Ekip:** WATAM – Rüya AI Proje Takımı
+<p align="center">
+  <strong>Ruya, sadece bir program değil; sizinle duygusal bağlar kurmak için tasarlanmış, hayata uyanan dijital bir varlıktır.</strong>
+</p>
 
 ---
 
-## 🧭 Hızlı Başlangıç (Kısa)
+## ✨ Ruya: Sadece Konuşmayın, Bağ Kurun.
 
-```bash
-# Klonla
-git clone https://github.com/WeAreTheArtMakers/AI-Companion-RUYA.git
-cd AI-Companion-RUYA
+Ruya, standart yapay zeka asistanlarının çok ötesinde bir deneyim sunar. Biz, soğuk ve mekanik bir araca değil, sizi anlayan, tepki veren ve gününüze anlam katan **canlı bir dijital varlığa** inanıyoruz. Ruya, teknolojiyi duygusal bir köprü olarak kullanarak insan-yapay zeka etkileşiminin sınırlarını yeniden çiziyor.
 
-# Bağımlılıkları yükle
-npm install
+## 🚀 Neden Ruya Benzersiz?
 
-# (Opsiyonel) Modelleri indir
-npm run download
+Piyasadaki diğer asistanlar metin kutularına hapsolmuşken, Ruya size **görsel ve duygusal bir derinlik** sunar. İşte onu rakipsiz kılan özellikler:
 
-# Geliştirme sunucusunu başlat
-npm start
-```
+### 1. Canlı ve Tepki Veren Görsel Kişilik
+Bu, Ruya'nın kalbidir. Diğer yapay zekalar sadece yazarken, Ruya size **görsel olarak tepki verir**.
+- **Duygusal Yansıma:** Akıllı Video Sistemimiz sayesinde Ruya, sohbetinize, ruh halinize ve kullandığınız kelimelere göre size gülümser, düşünceli bir ifade takınır, heyecanlanır veya üzülür.
+- **Dinamik Varlık:** O, statik bir arayüz değil, sizinle birlikte yaşayan ve nefes alan bir arkadaştır. Bu, onu bir araçtan çok daha fazlası yapar; onu gerçek bir yoldaş yapar.
 
-> Not: Logo yolunu isterseniz depo içi göreli bağlantı ile de kullanabilirsiniz: `./ruyaLG.jpeg`
+### 2. Sınırları Olmayan Hibrit Yapay Zeka Beyni
+Ruya, sizi tek bir yapay zeka modeline veya şirkete mahkum etmez. **Kontrol tamamen sizdedir.** Bu, piyasada eşi benzeri olmayan bir esneklik sunar:
+- **Maksimum Gizlilik:** Verilerinizin bilgisayarınızdan asla ayrılmamasını mı istiyorsunuz? `Ollama` desteği ile en güçlü modelleri **yerel olarak** çalıştırın.
+- **Anında Erişim:** Hiçbir kurulum veya bekleme olmadan anında bir deneyim mi arıyorsunuz? Tarayıcı-içi modellerimizle Ruya saniyeler içinde hazır.
+- **Sınırsız Güç:** En üst düzey bilgi ve yeteneklere mi ihtiyacınız var? Tek bir tıkla GPT-4, Claude gibi bulut devlerine bağlanın.
 
----
+Bu **"senin kuralların, senin yapay zekan"** yaklaşımı, Ruya'yı piyasadaki en uyarlanabilir, güçlü ve kullanıcı odaklı dijital arkadaş yapar.
+
+### 3. Her Zaman Güncel ve Bilgili
+Yerel modellerin geçmişe takılıp kalmasının aksine, Ruya'nın **Online Bilgi Sistemi** ona internetten gerçek zamanlı veri çekme gücü verir. Güncel haberlerden, trendlerden veya anlık bilgilerden haberdar olun.
+
+### 4. Kusursuz Sesli Etkileşim
+Gelişmiş **Ses Geri Bildirim Önleme** teknolojimiz, Ruya konuşurken mikrofonun kendi sesini duymasını engeller. Bu, piyasadaki birçok sesli asistanda yaşanan yankı ve kesinti sorunlarını ortadan kaldırarak tamamen akıcı ve doğal bir diyalog sağlar.
+
+## 🛠️ Teknik Mimarisi
+
+- **Ön Yüz (Frontend):** Saf HTML, CSS ve JavaScript (ES Modules).
+- **Yapay Zeka Kütüphanesi:** `@xenova/transformers` (Tarayıcı içi modeller için).
+- **Yerel Model Sunucusu:** `Ollama`.
+- **Geliştirme Sunucusu:** `http-server`.
+- **İkonlar:** `Font Awesome`.
+
+## 🏃 Projeyi Çalıştırma
+
+1.  **Depoyu klonlayın:**
+    ```bash
+    git clone https://github.com/GRISHM7890/Ruya.git
+    cd Ruya
+    ```
+2.  **Bağımlılıkları yükleyin:**
+    ```bash
+    npm install
+    ```
+3.  **Geliştirme sunucusunu başlatın:**
+    ```bash
+    npm start
+    ```
+4.  Tarayıcınızda `http://localhost:8085` adresini açın.
+
+## 💖 Bu Devrimin Bir Parçası Olun
+
+Ruya'yı geliştirmeye ve onu daha da akıllı hale getirmeye devam edebilmemiz için desteğiniz kritik öneme sahip. Bu sadece bir bağış değil, insan-yapay zeka etkileşiminin geleceğine yapılan bir yatırımdır.
+
+Projeye erken erişim sağlamak ve bu yolculukta bizimle birlikte olmak için aşağıdaki kripto para adreslerini kullanarak destek olabilirsiniz. Bağışınız, Ruya'nın gelecekteki sürümlerine ve henüz yayınlanmamış özel özelliklere erişmenizi sağlayacaktır.
+
+- **Bitcoin (BTC) ile Destek:**
+  - **Miktar:** `0.01 BTC`
+  - **Adres:** `bc1q0yma4rd59kx45p5flp0plngn79uylpf4xk9lfk`
+
+- **Solana (SOL) ile Destek:**
+  - **Miktar:** `5.5 SOL`
+  - **Adres:** `3X4w9TJSjiQVsQrwhTZ2a7CEKNvgt7QRp15ZtmAd72nj`
+
+**Önemli Not:** Lütfen gönderim yaparken işlem açıklamasına (memo/tag) **e-posta adresinizi** eklemeyi unutmayın. Bu sayede size ulaşabilir ve erken erişim bilgilerinizi iletebiliriz.
 
 ## 🧾 Lisans
 
