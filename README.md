@@ -1,6 +1,10 @@
 # AI-Companion-RUYA
 An open-source AI companion that goes beyond chatbots — combining emotional awareness, real-time voice interaction, proactive notifications, and hybrid AI (local + cloud) into a single experience.
 
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Node.js](https://img.shields.io/badge/Node.js-22.16.0-green.svg)](https://nodejs.org/)
+  [![Status](https://img.shields.io/badge/Status-Alpha-orange.svg)]()
+
 <p align="center">
   <img src="https://github.com/WeAreTheArtMakers/AI-Companion-RUYA/blob/main/ruya-logo.png" alt="Rüya AI Logo" width="256" />
 </p>
