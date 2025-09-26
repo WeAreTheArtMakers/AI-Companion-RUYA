@@ -95,5 +95,5 @@ Projeye erken erişim sağlamak ve bu yolculukta bizimle birlikte olmak için a�
 
 ## 🧾 Lisans
 
-Bu projenin lisansı için `LICENSE` dosyasına bakın. (Önerilen: GPL-3.0 license)
+Bu projenin lisansı için `LICENSE` dosyasına bakın. 
 
