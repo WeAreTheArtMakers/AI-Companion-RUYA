@@ -77,6 +77,11 @@ Gelişmiş **Ses Geri Bildirim Önleme** teknolojimiz, Ruya konuşurken mikrofon
     ```
 4.  Tarayıcınızda `http://localhost:8085` adresini açın.
 
+
+<p align="left">
+  <img src="https://github.com/WeAreTheArtMakers/AI-Companion-RUYA/blob/main/ruya.gif" alt="Rüya AI Demo" width="480" />
+</p>
+
 ## 💖 Bu Devrimin Bir Parçası Olun
 
 Ruya'yı geliştirmeye ve onu daha da akıllı hale getirmeye devam edebilmemiz için desteğiniz kritik öneme sahip. Bu sadece bir bağış değil, insan-yapay zeka etkileşiminin geleceğine yapılan bir yatırımdır.
