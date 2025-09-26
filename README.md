@@ -19,12 +19,6 @@ An open-source AI companion that goes beyond chatbots — combining emotional aw
 
 ---
 
-# Ruya AI - Dijital Arkadaşınız
-
-<p align="center">
-  <img src="Ruyaicon/ruya-logo.png" alt="Ruya AI Logo" width="200"/>
-</p>
-
 <p align="center">
   <strong>Ruya, sadece bir program değil; sizinle duygusal bağlar kurmak için tasarlanmış, hayata uyanan dijital bir varlıktır.</strong>
 </p>
